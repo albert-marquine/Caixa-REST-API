@@ -1,4 +1,6 @@
-# Caixa-REST-API# Funcionamiento
+# Caixa-REST-API
+
+# Funcionamiento
 
 1. Instalar los requisitos de **[requirements.txt]("https://github.com/albert-marquine/Caixa-REST-API/blob/main/requirements.txt")**:
 
