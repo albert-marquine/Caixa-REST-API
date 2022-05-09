@@ -1,6 +1,6 @@
 # Caixa-REST-API
 
-## Funcionamiento
+### Funcionamiento
 
 1. Instalar los requisitos de **[requirements.txt]("https://github.com/albert-marquine/Caixa-REST-API/blob/main/requirements.txt")**:
 
@@ -14,7 +14,7 @@
     * -endpoint <<endpoint_name>>
     * -file_path <<request.json>>
 
-## Ejemplo de uso
+### Ejemplo de uso
 
 ```python
 python3 caixa-api-requests.py -a post -endpoint payments -file_path request.json
