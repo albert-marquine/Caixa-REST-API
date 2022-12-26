@@ -1,0 +1,17 @@
+# Ignore files
+
+# Used for the local development
+local-script.sh
+props.yaml
+
+*.log
+
+# Virtual environment and python stuff
+venv/
+dist/
+.pytest_cache/
+__pycache__/
+*.egg-info
+
+# IDEs and others
+.idea/
