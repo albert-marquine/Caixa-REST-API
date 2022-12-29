@@ -10,12 +10,14 @@ def get_token(auth_endpoint, api_keys, api_secret):
       """
       Get an authorization token.
       """
+      headers = {
+        'grant_type': 'api_credentials'
+      }
       data = {
-        'grant_type': 'api_credentials',
         'client_id': api_keys,
         'client_secret': api_secret
       }
-      res = requests.post(auth_endpoint, data=data)
+      res = requests.post(auth_endpoint, headers=headers, params=data, verify=False)
       if res.status_code == 200:
         token = res.json()['access_token']
         return token
