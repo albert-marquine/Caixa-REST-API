@@ -1,3 +1,6 @@
+# Release 1.2
+
+- Cambio de dirección servidor (post migración)
 
 # Release 1.1
 
