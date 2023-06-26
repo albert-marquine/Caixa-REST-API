@@ -7,7 +7,7 @@ def run(arguments):
     
     """
     from caixab.api import api_request
-    api = api_request(arguments.api_key, arguments.api_secret, 'https://16.170.244.46/api/')
+    api = api_request(arguments.api_key, arguments.api_secret, 'https://18.101.17.111/api/')
     response = api.make_request(arguments.action, arguments.endpoint, arguments.data)
     print(response)
 
