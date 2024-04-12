@@ -10,7 +10,9 @@ Libreria de python para gestionar la cuenta de Caixab y/o realizar transacciones
 
 Si usted usa `pip`, puede instalar la libreria `caixa-rest-api` ejecutando:
 
-`pip install -i https://test.pypi.org/simple/ caixab_rest_apii`
+```
+pip install -i https://test.pypi.org/project/caixab-rest-api/
+```
 
 ### Desde GitHub
 
@@ -35,7 +37,7 @@ Si usted usa `pip`, puede instalar la libreria `caixa-rest-api` ejecutando:
    2. Ejecute el siguiente comando:
 
         ```bash
-        caixab_rest_api-cli --api_key 'jasdfo23c03jdafa' --secret_key 'asdf838duju30' --action 'POST' --endpoint 'paiments' --file_path '/home/albert-marquine/proyectos/Caixa-REST-API/request.json'
+        caixab_rest_api-cli --api_key 'jasdfo23c03jdafa' --secret_key 'K8Bf7wki293keme' --action 'POST' --endpoint 'payment' --file_path '/home/albert-marquine/proyectos/Caixa-REST-API/request.json'
         ```
 
 ### Importando la librería en tu código
